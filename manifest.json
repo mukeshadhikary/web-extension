@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Browser information sender",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "ftp"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
